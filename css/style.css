@@ -1,0 +1,171 @@
+/* global selection */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* font */
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* reuseable properties */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* common button */
+
+.common-btn {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #e9b44c;
+  padding: 16px;
+  border-radius: 16px;
+  margin-top: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+/* nav-bar starts */
+
+header {
+  background-color: #2e2622;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  color: #fbf6ef;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fbf6ef;
+}
+
+.nav-child-one {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-child-one h2 {
+  color: #e9b44c;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+ul li a:hover {
+  color: #aea89e;
+}
+/* nav-bar ends here */
+
+/* hero-section starts */
+
+.hero-background {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5)), url(/image/bg-image.avif);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* flexing hero content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 12px 0;
+
+  /* font color */
+  color: white;
+}
+
+.hero-background h1 {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 83.2px;
+  max-width: 650px;
+  color: #fbf6ef;
+  margin: 12px 0;
+}
+
+.hero-background p:first-of-type {
+  color: #e9b44c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-background p:last-of-type {
+  color: #f0e9dd;
+  max-width: 440px;
+  line-height: 27.2px;
+}
+
+/* .hero-background button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #E9B44C;
+    padding: 16px;
+    border-radius: 16px;
+    margin-top: 8px;
+    cursor: pointer;
+    border: none;
+} */
+
+.hero-background button:hover {
+  background-color: #aea89e;
+}
+
+/* hero-section ends */
+
+/* our-story-section starts */
+
+.our-story-section {
+  display: flex;
+  margin: 72px auto;
+  align-items: center;
+}
+
+.our-story-section-img img {
+  border-radius: 12px;
+  max-width: 100%;
+}
+
+.our-story-section-desc {
+  margin-left: 32px;
+}
+
+.our-story-section-desc h2 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 26px;
+}
+
+.our-story-section-desc p {
+  color: #5a4f47;
+  line-height: 25.6px;
+  margin-bottom: 18px;
+}
+
+.btn-wide {
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.our-story-section-desc button:hover {
+  background-color: #aea89e;
+}
