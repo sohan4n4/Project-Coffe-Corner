@@ -7,6 +7,7 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
+  background-color: #fbf6ef;
 }
 
 /* reuseable properties */
@@ -75,7 +76,8 @@ ul li a:hover {
 /* hero-section starts */
 
 .hero-background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../image/bg-image.avif);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5)), url(../image/bg-image.avif);
   height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,14 +176,13 @@ ul li a:hover {
 /* our-product section starts */
 
 .our-product-parent {
-  background-color: #F1E7D8;
+  background-color: #f1e7d8;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 20px;
 }
-
 
 .first-product-child h2 {
   padding: 32px 0 52px;
@@ -202,11 +203,10 @@ ul li a:hover {
   background-color: white;
   text-align: center;
   padding: 40px 12px;
-  border-radius: 8px;  
-  max-width: 250px;  
+  border-radius: 8px;
+  max-width: 250px;
   flex: 1;
 }
-
 
 .second-product-child .product-card img {
   padding-bottom: 32px;
@@ -219,10 +219,9 @@ ul li a:hover {
   padding-bottom: 12px;
 }
 
-
 .second-product-child .product-card p {
   line-height: 25.6px;
-  color: #2E2622;
+  color: #2e2622;
 }
 
 .second-product-child P:last-of-type {
@@ -232,4 +231,114 @@ ul li a:hover {
 
 /* our-product-section ends */
 
+/* what makes us difference starts */
 
+.what-makes-us-difference {
+  background-color: #fbf6ef;
+  padding-bottom: 82px;
+}
+
+.our-characteristic-parent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.our-characteristic-child-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-characteristic-child-one {
+  padding-top: 80px;
+  padding-bottom: 52px;
+}
+
+.our-characteristic-child-one p {
+  color: #e9b44c;
+  padding-bottom: 18px;
+}
+
+.our-characteristic-child-one h2 {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 54.4px;
+}
+
+.our-characteristic-child-two .h3-design {
+  font-weight: bold;
+  font-size: 19px;
+  padding-top: 18px;
+  padding-bottom: 4px;
+}
+
+.our-characteristic-child-two .p-design {
+  line-height: 25.6px;
+  color: #2e2622;
+}
+
+/* what makes us difference ends */
+
+/* table-section starts */
+
+.table-container-parent {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+  padding: 32px;
+  padding-bottom: 80px;
+  /* align-content: center; */
+}
+
+.table-container {
+  border-top: 4px solid #e0609a; /* Pink accent line at the top */
+  padding-top: 15px;
+}
+
+.table-container-parent h2 {
+  padding: 22px;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 54.4px;
+  padding-bottom: 32px;
+}
+
+.table-container-parent p{
+  color: #E9B44C;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fdfbf7;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+th {
+  background-color: #2b231d;
+  color: #d1a153;
+  text-align: center;
+  padding: 15px 20px;
+  font-weight: 600;
+}
+
+td {
+  padding: 15px 20px;
+  color: #4a423a;
+  border: 1px solid #9c938a;
+}
+
+/* Adjusting borders to match the image style */
+table,
+th {
+  border: 1px solid #9c938a;
+}
+
+tr td:first-child {
+  width: 45%;
+}
+
+/* table-section ends */
